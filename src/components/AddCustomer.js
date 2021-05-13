@@ -42,7 +42,7 @@ function AddCustomer (props) {
         Add Customer
       </Button>
       <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
-        <DialogTitle id="form-dialog-title">New Car</DialogTitle>
+        <DialogTitle id="form-dialog-title">New Customer</DialogTitle>
         <DialogContent>
           <TextField
             margin="dense"
